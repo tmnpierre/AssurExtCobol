@@ -1,0 +1,151 @@
+Rapport Global des Assurances
+
+
+Section: Statuts et Contrats
+
+
+ ID: 01000000 Assurance souscrite: AGA_BASE       Statut: Actif
+
+ ID: 59008750 Assurance souscrite: AGR_BASE       Statut: Actif
+
+ ID: 03009800 Assurance souscrite: AGTNA_AH       Statut: Suspendu
+
+ ID: 04009800 Assurance souscrite: AGTNA_BASE     Statut: Actif
+
+ ID: 59009400 Assurance souscrite: AGTNI_AH       Statut: Suspendu
+
+ ID: 59010200 Assurance souscrite: AGTNR_BASE     Statut: Actif
+
+ ID: 07000000 Assurance souscrite: AH_BASE        Statut: Actif
+
+ ID: 59033076 Assurance souscrite: ANI_FM         Statut: Actif
+
+ ID: 59033176 Assurance souscrite: ANI_PRV        Statut: Resilie
+
+ ID: 10014000 Assurance souscrite: ASA_BASE       Statut: Actif
+
+ ID: 59014400 Assurance souscrite: ASR_BASE       Statut: Resilie
+
+ ID: 59014800 Assurance souscrite: ASTNA_AH       Statut: Actif
+
+ ID: 59014800 Assurance souscrite: ASTNA_BASE     Statut: Suspendu
+
+ ID: 14040437 Assurance souscrite: BAS_ACEDAT     Statut: Suspendu
+
+ ID: 59044469 Assurance souscrite: BAS_ACENTRAL   Statut: Actif
+
+ ID: 16000000 Assurance souscrite: BAS_ACLARIS    Statut: Actif
+
+ ID: 17046790 Assurance souscrite: BAS_AKERPROI   Statut: Resilie
+
+ ID: 59046800 Assurance souscrite: BAS_AKERPROM   Statut: Resilie
+
+ ID: 19049142 Assurance souscrite: BAS_AKMMOTOR   Statut: Resilie
+
+ ID: 59049799 Assurance souscrite: BAS_ALABBE     Statut: Resilie
+
+ ID: 21044242 Assurance souscrite: BAS_ALABEL     Statut: Actif
+
+ ID: 59041605 Assurance souscrite: BAS_ALAMIRAU   Statut: Actif
+
+ ID: 23000000 Assurance souscrite: BAS_ALAUNAY    Statut: Actif
+
+ ID: 59046699 Assurance souscrite: BAS_ALECLEAO   Statut: Actif
+
+ ID: 59046745 Assurance souscrite: ANI_PRV        Statut: Suspendu
+
+ ID: 59049026 Assurance souscrite: BAS_ALOIRAL    Statut: Suspendu
+
+ ID: 27044672 Assurance souscrite: BAS_AMAGYARC   Statut: Suspendu
+
+ ID: 59050005 Assurance souscrite: BAS_AMAGYARC2  Statut: Actif
+
+ ID: 29045730 Assurance souscrite: BAS_AMARY      Statut: Suspendu
+
+ ID: 89000000 Assurance souscrite: BAS_AMARY      Statut: Actif
+
+ ID: 75000000 Assurance souscrite: ANI_PRV        Statut: Actif
+
+ ID: 32000000 Assurance souscrite: BAS_AMARY      Statut: Suspendu
+
+ ID: 77000000 Assurance souscrite: BAS_AMARY      Statut: Resilie
+
+ ID: 34000000 Assurance souscrite: ANI_PRV        Statut: Suspendu
+
+ ID: 35000000 Assurance souscrite: BAS_ALAMIRAU   Statut: Actif
+
+ ID: 73000000 Assurance souscrite: BAS_AKERPROI   Statut: Resilie
+
+ ID: 01010000 Assurance souscrite: AGA_BASE       Statut: Actif
+
+ ID: 02598750 Assurance souscrite: AGR_BASE       Statut: Actif
+
+ ID: 03009800 Assurance souscrite: AGTNA_AH       Statut: Suspendu
+
+ ID: 04009800 Assurance souscrite: AGTNA_BASE     Statut: Actif
+
+ ID: 59009400 Assurance souscrite: AGTNI_AH       Statut: Suspendu
+
+ ID: 59010200 Assurance souscrite: AGTNR_BASE     Statut: Actif
+
+ ID: 07032200 Assurance souscrite: AH_BASE        Statut: Actif
+
+ ID: 59033076 Assurance souscrite: ANI_FM         Statut: Actif
+
+ ID: 59033176 Assurance souscrite: ANI_PRV        Statut: Resilie
+
+ ID: 10014020 Assurance souscrite: ASA_BASE       Statut: Actif
+
+ ID: 59014400 Assurance souscrite: ASR_BASE       Statut: Resilie
+
+ ID: 59014811 Assurance souscrite: ASTNA_AH       Statut: Actif
+
+ ID: 59014820 Assurance souscrite: ASTNA_BASE     Statut: Suspendu
+
+ ID: 14040437 Assurance souscrite: BAS_ACEDAT     Statut: Suspendu
+
+ ID: 59044469 Assurance souscrite: BAS_ACENTRAL   Statut: Actif
+
+ ID: 16003330 Assurance souscrite: BAS_ACLARIS    Statut: Actif
+
+ ID: 17046790 Assurance souscrite: BAS_AKERPROI   Statut: Resilie
+
+ ID: 59046800 Assurance souscrite: BAS_AKERPROM   Statut: Resilie
+
+ ID: 19049142 Assurance souscrite: BAS_AKMMOTOR   Statut: Resilie
+
+ ID: 59049799 Assurance souscrite: BAS_ALABBE     Statut: Resilie
+
+ ID: 21044242 Assurance souscrite: BAS_ALABEL     Statut: Actif
+
+ ID: 59041605 Assurance souscrite: BAS_ALAMIRAU   Statut: Actif
+
+ ID: 23001230 Assurance souscrite: BAS_ALAUNAY    Statut: Actif
+
+ ID: 59046699 Assurance souscrite: BAS_ALECLEAO   Statut: Actif
+
+ ID: 59046745 Assurance souscrite: ANI_PRV        Statut: Suspendu
+
+ ID: 59049026 Assurance souscrite: BAS_ALOIRAL    Statut: Suspendu
+
+ ID: 27044672 Assurance souscrite: BAS_AMAGYARC   Statut: Suspendu
+
+ ID: 59050005 Assurance souscrite: BAS_AMAGYARC2  Statut: Actif
+
+ ID: 29045730 Assurance souscrite: BAS_AMARY      Statut: Suspendu
+
+ ID: 89001230 Assurance souscrite: BAS_AMARY      Statut: Actif
+
+ ID: 75087600 Assurance souscrite: ANI_PRV        Statut: Actif
+
+ ID: 32000000 Assurance souscrite: BAS_AMARY      Statut: Suspendu
+
+ ID: 77000000 Assurance souscrite: BAS_AMARY      Statut: Resilie
+
+ ID: 34001230 Assurance souscrite: ANI_PRV        Statut: Suspendu
+
+ ID: 35022000 Assurance souscrite: BAS_ALAMIRAU   Statut: Actif
+
+ ID: 73032120 Assurance souscrite: BAS_AKERPROI   Statut: Resilie
+
+Total Records: 000072 Total Actif: 0036 Total Inactif: 0036
