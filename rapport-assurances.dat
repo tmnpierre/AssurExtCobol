@@ -7,6 +7,7 @@ Total Montant:    446,249,19€ Actifs:    248,728,94€ Résiliés:     58,561,
 
 Enregistrements Actifs:
 
+
 01000000*AGA_BASE      *IRP AUTO Sante*Regimes Actifs                           *Actif   *20060101*30000101*  5275,90*€
 59008750*AGR_BASE      *IRP AUTO Sante*Regimes Retraites                        *Actif   *20060901*30000901* 13393,60*€
 04009800*AGTNA_BASE    *IRP AUTO Sante*Regimes TNS Actifs                       *Actif   *20060101*30000101*  9868,30*€
@@ -25,6 +26,7 @@ Enregistrements Actifs:
 89000000*BAS_AMARY     *IRP AUTO Sante*CEDAT                                    *Actif   *20161001*30000401* 66006,00*€
 75000000*ANI_PRV       *IRP AUTO Sante*Groupe LAUNAY ind.                       *Actif   *20091001*30000101* 16666,04*€
 35000000*BAS_ALAMIRAU  *IRP AUTO Sante*CEDAT                                    *Actif   *20271001*30000601* 64266,00*€
+
 Enregistrements Résiliés:
 
 
@@ -36,6 +38,7 @@ Enregistrements Résiliés:
 59049799*BAS_ALABBE    *IRP AUTO Sante*GRUAU LABBE                              *Resilie *20221101*30000101* 13845,50*€
 77000000*BAS_AMARY     *IRP AUTO Sante*Groupe LAMIRAULT ind.                    *Resilie *20651001*30000101*   666,00*€
 73000000*BAS_AKERPROI  *IRP AUTO Sante*ANI PRV                                  *Resilie *20261001*30000601*  6096,05*€
+
 Enregistrements Suspendus:
 
 
