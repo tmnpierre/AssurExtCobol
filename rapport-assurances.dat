@@ -7,7 +7,6 @@ Total Montant:    446,249,19€ Actifs:    248,728,94€ Résiliés:     58,561,
 
 Enregistrements Actifs:
 
-
 01000000*AGA_BASE      *IRP AUTO Sante*Regimes Actifs                           *Actif   *20060101*30000101*  5275,90*€
 59008750*AGR_BASE      *IRP AUTO Sante*Regimes Retraites                        *Actif   *20060901*30000901* 13393,60*€
 04009800*AGTNA_BASE    *IRP AUTO Sante*Regimes TNS Actifs                       *Actif   *20060101*30000101*  9868,30*€
@@ -29,7 +28,6 @@ Enregistrements Actifs:
 
 Enregistrements Résiliés:
 
-
 59033176*ANI_PRV       *IRP AUTO Sante*ANI PRV                                  *Resilie *20060101*30000101* 13583,20*€
 59014400*ASR_BASE      *IRP AUTO Sante*ASI Retraites                            *Resilie *20061201*30001101*  7875,50*€
 17046790*BAS_AKERPROI  *IRP AUTO Sante*Groupe KER PRO                           *Resilie *20191001*30000101*  7065,90*€
@@ -40,7 +38,6 @@ Enregistrements Résiliés:
 73000000*BAS_AKERPROI  *IRP AUTO Sante*ANI PRV                                  *Resilie *20261001*30000601*  6096,05*€
 
 Enregistrements Suspendus:
-
 
 03009800*AGTNA_AH      *IRP AUTO Sante*AGTNA                                    *Suspendu*20060101*30000101*  8135,60*€
 59009400*AGTNI_AH      *IRP AUTO Sante*AGTNI                                    *Suspendu*20061101*30000101*  1955,30*€
