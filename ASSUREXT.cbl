@@ -141,8 +141,10 @@
       *    Traitement du premier fichier d'assurance.
            MOVE ZERO TO WS-FILE-STATUS
            PERFORM PROCESS-FILE-1
+           CLOSE FICHIER-RAPPORT.
 
       *    Traitement du deuxième fichier d'assurance.
+           OPEN EXTEND FICHIER-RAPPORT.
            PERFORM PROCESS-FILE-2
 
       *    Écriture du résumé des assurances.
@@ -277,93 +279,73 @@
            END-PERFORM.
 
       *    Traitement du deuxième fichier d'assurance.
-           PROCESS-FILE-2.
+       PROCESS-FILE-2.
            PERFORM UNTIL WS-FILE-STATUS = '10'
                READ FICHIER-ASSUR-PART2 INTO ASSUR-REC-2
-
                    AT END
                        MOVE '10' TO WS-FILE-STATUS
-                   
                    NOT AT END
-                       
                        EVALUATE ASSUR-STATUT2
-                           
                            WHEN 'Actif'
                                ADD 1 TO WS-TOTAL-ACTIF
                                MOVE ASSUR-REC-2 TO 
                                     AR-DATA(WS-TOTAL-ACTIF)
                                COMPUTE WS-TOTAL-MONTANT-ACTIF = 
                                        WS-TOTAL-MONTANT-ACTIF + 
-                                       FUNCTION NUMVAL(ASSUR-MONTANT2)
-                           
-                           WHEN 'Résilié'
+                                       FUNCTION NUMVAL-C(ASSUR-MONTANT2)
+
+                           WHEN 'Resilie'
                                ADD 1 TO WS-TOTAL-RESILIE
                                MOVE ASSUR-REC-2 TO 
                                     RS-DATA(WS-TOTAL-RESILIE)
                                COMPUTE WS-TOTAL-MONTANT-RESILIE =  
                                        WS-TOTAL-MONTANT-RESILIE + 
-                                       FUNCTION NUMVAL(ASSUR-MONTANT2)
-                           
+                                       FUNCTION NUMVAL-C(ASSUR-MONTANT2)
+
                            WHEN 'Suspendu'
                                ADD 1 TO WS-TOTAL-SUSPENDU
                                MOVE ASSUR-REC-2 TO 
                                     SP-DATA(WS-TOTAL-SUSPENDU)
                                COMPUTE WS-TOTAL-MONTANT-SUSPENDU = 
                                        WS-TOTAL-MONTANT-SUSPENDU + 
-                                       FUNCTION NUMVAL(ASSUR-MONTANT2)
+                                       FUNCTION NUMVAL-C(ASSUR-MONTANT2)
 
                            WHEN OTHER 
                                CONTINUE
-                       
                        END-EVALUATE
-                       
                        ADD 1 TO WS-TOTAL-RECORDS
-               
+                       COMPUTE WS-TOTAL-MONTANT = WS-TOTAL-MONTANT + 
+                           FUNCTION NUMVAL-C(ASSUR-MONTANT2) 
                END-READ
-           
            END-PERFORM.
+
 
       *    Écriture des enregistrements actifs dans le rapport.
 
+      *    Écriture des enregistrements actifs dans le rapport.
        WRITE-ACTIVE-RECORDS.
-      
-      *    Parcourt les enregistrements actifs et les écrit dans le rapport.
            PERFORM VARYING AR-IDX FROM 1 BY 1 UNTIL 
-                           AR-IDX > WS-TOTAL-ACTIF
-      
-      *        Copie les données de l'enregistrement actif dans la 
-      *        variable du rapport.
+                   AR-IDX > WS-TOTAL-ACTIF
                MOVE AR-DATA(AR-IDX) TO WS-RAPPORT-DATA
-      
-      *        Détermine la longueur des données du rapport.
                MOVE LENGTH OF WS-RAPPORT-DATA TO WS-RAPPORT-LENGTH
-      
-      *        Écrit les données de l'enregistrement dans le rapport.
                WRITE RAPPORT-REC FROM WS-RAPPORT-DATA
-           
            END-PERFORM.
-
 
       *    Écriture des enregistrements résiliés dans le rapport.
        WRITE-RESILIE-RECORDS.
-
            PERFORM VARYING RS-IDX FROM 1 BY 1 UNTIL 
-                           RS-IDX > WS-TOTAL-RESILIE
-
+                   RS-IDX > WS-TOTAL-RESILIE
                MOVE RS-DATA(RS-IDX) TO WS-RAPPORT-DATA
                MOVE LENGTH OF WS-RAPPORT-DATA TO WS-RAPPORT-LENGTH
                WRITE RAPPORT-REC FROM WS-RAPPORT-DATA
-
            END-PERFORM.
 
       *    Écriture des enregistrements suspendus dans le rapport.
        WRITE-SUSPENDU-RECORDS.
-
            PERFORM VARYING SP-IDX FROM 1 BY 1 UNTIL 
-                           SP-IDX > WS-TOTAL-SUSPENDU
-
+                   SP-IDX > WS-TOTAL-SUSPENDU
                MOVE SP-DATA(SP-IDX) TO WS-RAPPORT-DATA
                MOVE LENGTH OF WS-RAPPORT-DATA TO WS-RAPPORT-LENGTH
                WRITE RAPPORT-REC FROM WS-RAPPORT-DATA
-
            END-PERFORM.
+
